@@ -1,0 +1,1 @@
+require ${@bb.utils.contains('MACHINE_FEATURES', 'uefi-secureboot', 'grub-efi-uefi-secureboot.inc', '', d)}
