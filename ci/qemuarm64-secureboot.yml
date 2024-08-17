@@ -11,6 +11,8 @@ local_conf_header:
   optee: |
     IMAGE_INSTALL:append = " optee-test optee-client optee-os-ta"
     TEST_SUITES:append = " optee ftpm"
+  uefi_secure_boot: |
+    TEST_SUITES:append = " uefi_secure_boot"
 
 machine: qemuarm64-secureboot
 

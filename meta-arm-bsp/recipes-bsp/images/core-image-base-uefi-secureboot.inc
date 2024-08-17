@@ -10,4 +10,8 @@ QB_DEFAULT_KERNEL = "none"
 
 KERNEL_IMAGETYPE = "Image"
 
-IMAGE_INSTALL += "systemd systemd-boot"
+IMAGE_INSTALL += "systemd systemd-boot util-linux coreutils efivar"
+
+inherit extrausers
+
+EXTRA_IMAGE_FEATURES += "allow-root-login empty-root-password"
