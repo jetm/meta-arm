@@ -9,3 +9,5 @@ QB_KERNEL_ROOT = ""
 QB_DEFAULT_KERNEL = "none"
 
 KERNEL_IMAGETYPE = "Image"
+
+IMAGE_INSTALL += "systemd"
