@@ -1,0 +1,1 @@
+require ${@bb.utils.contains('MACHINE_FEATURES', 'uefi-secureboot', 'core-image-base-uefi-secureboot.inc', '', d)}
