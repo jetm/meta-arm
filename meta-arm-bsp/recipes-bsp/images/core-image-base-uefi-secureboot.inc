@@ -10,4 +10,4 @@ QB_DEFAULT_KERNEL = "none"
 
 KERNEL_IMAGETYPE = "Image"
 
-IMAGE_INSTALL += "systemd"
+IMAGE_INSTALL += "systemd systemd-boot"
