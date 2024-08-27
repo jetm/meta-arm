@@ -7,10 +7,10 @@ header:
 
 machine: qemuarm64-secureboot
 
-target:
-  - core-image-base
-
 local_conf_header:
   optee: |
     IMAGE_INSTALL:append = " optee-test optee-client optee-os-ta"
     TEST_SUITES:append = " optee ftpm"
+
+target:
+  - core-image-minimal
