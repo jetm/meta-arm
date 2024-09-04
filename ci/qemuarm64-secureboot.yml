@@ -4,6 +4,7 @@ header:
   version: 14
   includes:
     - ci/base.yml
+    - ci/uefi-secureboot.yml
 
 machine: qemuarm64-secureboot
 
